@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "rinkeby": "truffle migrate --compile-all --network rinkeby > networks/rinkeby/logs/$(date +%Y-%m-%d-%I:%M%p).log.txt",
     "ropsten": "truffle migrate --compile-all --network ropsten > networks/ropsten/logs/$(date +%Y-%m-%d-%I:%M%p).log.txt",
-    "mainnet": "truffle migrate --compile-all --network mainnet > networkds/mainnet/logs/$(date +%Y-%m-%d-%I:%M%p).log.txt",
+    "mainnet": "truffle migrate --compile-all --network mainnet > networks/mainnet/logs/$(date +%Y-%m-%d-%I:%M%p).log.txt",
     "ganache": "NODE_ENV=development npx truffle migrate --reset --compile-all",
     "compile": "npx truffle compile --all",
     "test:ropsten": "npx truffle test --network ropsten test"
